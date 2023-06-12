@@ -50,8 +50,8 @@ No modules.
 | <a name="input_name"></a> [name](#input\_name) | Name of the event hub | `string` | n/a | yes |
 | <a name="input_namespace_name"></a> [namespace\_name](#input\_namespace\_name) | Name of the namespace to deploy the eventhub into | `string` | n/a | yes |
 | <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | Name of resource group to deploy the eventhub into | `string` | n/a | yes |
-| <a name="input_message_retention"></a> [message\_retention](#input\_message\_retention) | Number of days events are retained | `number` | `1` | no |
-| <a name="input_partition_count"></a> [partition\_count](#input\_partition\_count) | Number of partitions | `number` | `2` | no |
+| <a name="input_message_retention_days"></a> [message\_retention\_days](#input\_message\_retention\_days) | Number of days events are retained | `number` | `1` | no |
+| <a name="input_partition_count"></a> [partition\_count](#input\_partition\_count) | Number of partitions. Changing this setting redeploys the event hub. | `number` | `2` | no |
 
 ## Outputs
 

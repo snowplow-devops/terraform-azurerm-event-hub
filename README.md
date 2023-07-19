@@ -73,7 +73,7 @@ No modules.
 
 The Terraform Azurerm Event Hub project is Copyright 2023-present Snowplow Analytics Ltd.
 
-Licensed under the [Apache License, Version 2.0][license] (the "License");
+Licensed under the [Snowplow Community License Agreement, Version 1.0][license] (the "License");
 you may not use this software except in compliance with the License.
 
 Unless required by applicable law or agreed to in writing, software
